@@ -3,9 +3,6 @@ payload:
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,katfile.com
   - DOMAIN-KEYWORD,katfile
-  - DOMAIN,katfile
-  - DOMAIN-SUFFIX,pt.gtk.pw
-  - DOMAIN-SUFFIX,baidu.com
   #- DOMAIN-SUFFIX,boostnet.top
   #- DOMAIN-SUFFIX,idydz.top
   #- DOMAIN-SUFFIX,mmti.one
