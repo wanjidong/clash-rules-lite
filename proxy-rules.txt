@@ -1,2 +1,4 @@
+#Author: ePim 自定义代理规则
+#Date: 2024-08-12 22:06:00
 payload:
   - DOMAIN-SUFFIX,browserscan.net
