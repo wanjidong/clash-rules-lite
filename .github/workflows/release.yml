@@ -22,6 +22,7 @@ jobs:
           for file in $(find $pwd -name "*rules.txt" | xargs ls -d); do 
             curl -sSL "https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/${file#*./}" > "./publish/${file#*./}"
           done
+          curl -sSL "https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/clash_rule_template.ini" > "./publish/clash_rule_template.ini"
 
       - name: Release and upload assets
         uses: softprops/action-gh-release@v0.1.6
