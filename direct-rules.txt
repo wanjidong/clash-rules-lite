@@ -1,0 +1,10 @@
+#Author: ePim 自定义直联规则
+#Date: 2024-08-12 22:06:00
+payload:
+  - DOMAIN-SUFFIX,pt.gtk.pw
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,katfile.com
+  - DOMAIN-KEYWORD,katfile
+  #- DOMAIN-SUFFIX,boostnet.top
+  #- DOMAIN-SUFFIX,idydz.top
+  #- DOMAIN-SUFFIX,mmti.one
